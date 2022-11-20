@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.priorDiv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  list-style: none;
+}
+
+Header {
+  height: 15%;
+}
+
+section {
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+Footer {
+  height: 5%;
+}
+
+ul {
+  height: 20%;
+}
+
+h1 {
+  height: 80%;
+}
